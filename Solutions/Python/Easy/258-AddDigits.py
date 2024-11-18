@@ -27,6 +27,7 @@ class Solution:
         while num>=10:
             num = sum(int(digit) for digit in str(num))
         return num
+    
 if __name__ == "__main__":
     # Test cases
     test_cases = [38, 0, 9, 123, 4567]
